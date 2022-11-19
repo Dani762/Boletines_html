@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form action ="http://paxinas.danielcastelao.org/action_page.php" method="GET" enctype ="text/plain">
+            <label for="nif">NIF:</label>
+            <input type="text" name="nif" value="">
+            <br>
+            <br>
+            <label for="fname">Nombre:</label>
+            <input type="text" name="fname" value="">
+            <br><br>
+            <label for="lname">Apellidos:</label>
+            <input type="text" name="lname" value="">
+            <br>
+            <p>Edad:</p>
+            <input type="radio" id="15-19" name="Edad" value="15-19">
+            <label for="15-19">15-19</label><br>
+            <input type="radio" id="20-29" name="Edad" value="20-29">
+            <label for="20-29">20-29</label><br>
+            <input type="radio" id="30-40" name="Edad" value="30-40">
+            <label for="30-40">30-40</label><br>
+            <label for="Estadocivil">Estado Civil:</label><br>
+            <select id="Estadocivil" name="Estadocivil" size="3">
+                <option value="Soltero">Soltero</option>
+                <option value="Casado">Casado</option>
+                <option value="Divorciado">Divorciado</option>
+            </select><br><br>
+            <p>Aficiones:</p>
+            <input type="checkbox" id="Aficiones" name="Aficiones1"  value="Cine">
+            <label for="Aficiones">Cine</label><br>
+            <input type="checkbox" id="Aficiones2" name="Aficiones2" value="Deportes">
+            <label for="Aficiones2">Deportes</label><br>
+            <input type="checkbox" id="Aficiones3" name="Aficiones3" value="Lectura">
+            <label for="Aficiones3">Lectura</label><br>
+            <input type="checkbox" id="Aficiones4" name="Aficiones4" value="Senderismo">
+            <label for="Aficiones4">Senderismo</label><br>
+            <p>Comentarios:</p>
+            <textarea name="comentario" rows="10" cols="30">
+                Escribe aquí tu comentario
+            </textarea>
+            <input type = "submit" value="Submit">
+        </form>
+    </body>
+</html>
