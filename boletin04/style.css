@@ -1,0 +1,74 @@
+#Principal {
+    border: 1px solid black;
+    height: 800px;
+    width: 800px;
+    background-color: black;
+    padding:10px;
+
+}
+
+td {
+    border: 1px solid aliceblue;
+    height: 40px;
+    width: 40px;
+    border-color: aliceblue;
+    
+    }
+
+.A {
+    background-color: white;
+
+}
+
+.B {
+    background-color: black;
+}
+
+#Secundario {
+    
+    height: 700px;
+    width: 700px;
+
+
+}
+#A1{
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+}
+#A2{
+    border: 1px solid black;
+    border-top:none;
+}
+#A3{
+    border: 1px solid black;
+    border-top:none;
+    border-right: none;
+ 
+}
+#A4{
+    border: 1px solid black;
+    border-left:none;
+}
+#A5{
+    border: 1px solid black;
+}
+
+#A6{
+    border: 1px solid black;
+    border-right: none;
+}
+#A7{
+    border: 1px solid black;
+    border-bottom: none;
+    border-left: none;
+}
+#A8{
+    border: 1px solid black;
+    border-bottom: none;
+}
+#A9{
+    border: 1px solid black;
+    border-bottom: none;
+    border-right: none;
+}
